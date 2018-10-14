@@ -9,17 +9,17 @@ password ='password'
 time = (time.time()-86400)*1000   # 24h avant *1000
 time = round(time)
 # RHEL
-deployRhelflow ='votre ID'  # id du flow deployRhelver
-udateRhelflow ='votre ID'  # id du flow  updateRhelacher
+deployRhelflow ='id'  # id du flow deployRhelver
+udateRhelflow ='id'  # id du flow  updateRhelacher
 # AD
-AjoutAD ='votre ID'  # id du flow AjoutADver
-suppressionAD ='votre ID'  # id du flow  supprADacher
+AjoutAD ='id'  # id du flow AjoutADver
+suppressionAD ='id'  # id du flow  supprADacher
 # Landesk
-deployLanDeskflow ='e71d7873-db5d-493c-80d2-baa921dd8e64'  # id du flow deployLanver
-udateLanDeskflow ='e1731a48-c164-4496-bfad-e0e95bcf58bb'  # id du flow  undeployLanacher
+deployLanDeskflow ='id'  # id du flow deployLanver
+udateLanDeskflow ='id'  # id du flow  undeployLanacher
 # ADREZO
-ReservIP ='d49725d1-3386-4608-86c6-63b9b801fffa'  # id du flow reserver
-RelachIP ='b7bfee6b-0cfb-47d7-9811-49b42021f8c2'  # id du flow  relacher
+ReservIP ='id'  # id du flow reserver
+RelachIP ='id'  # id du flow  relacher
 
 # choix de la brique  AD:1 Landesk:2 Rhel:3 Adrezo:4
 switcher = 4;
